@@ -5,6 +5,15 @@
 #include <PubSubClient.h>
 #include <AceCRC.h>
 
+//1 -> G   -> G 
+//2 -> 3.3 -> VCC
+//3 -> D8  -> HDO0
+//4 -> D1  -> CSN
+//5 -> D7  -> SCK
+//6 -> D5  -> MOSi
+//7 -> D6  -> MISO/GDO1
+//8 -> --  -> GD02
+
 // Select the type of CRC algorithm we'll be using
 using namespace ace_crc::crc16ccitt_byte;
 
